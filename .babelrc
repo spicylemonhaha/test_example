@@ -1,0 +1,13 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env", {
+                "targets": {
+                    "node": "current"
+                    // 根据当前node环境去决定babel配置
+                }
+            }
+        ]
+    ]
+}
+
